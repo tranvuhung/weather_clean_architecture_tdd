@@ -19,6 +19,10 @@ class WeatherEntity extends Equatable {
   final int pressure;
   final int humidity;
 
+  double convertToCelsius() {
+    return temperature - 273.15;
+  }
+
   @override
   List<Object?> get props => [
         cityName,
