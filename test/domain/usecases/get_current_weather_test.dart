@@ -16,16 +16,16 @@ void main() {
   });
 
   const testweatherDetail = WeatherEntity(
-    cityName: 'New York',
+    cityName: 'Hanoi',
     main: 'Clouds',
     description: 'few clouds',
     iconCode: '02d',
-    temperature: 302.28,
-    pressure: 1009,
-    humidity: 70,
+    temperature: 291.15,
+    pressure: 1027,
+    humidity: 25,
   );
 
-  const testCitiName = "New York";
+  const testCitiName = "Hanoi";
 
   test("Should get current weather detail from the repository", () async {
     // arrange
