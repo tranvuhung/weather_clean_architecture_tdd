@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:weather_clean_architecture_tdd/core/constant.dart';
-import 'package:weather_clean_architecture_tdd/core/exception.dart';
+import 'package:weather_clean_architecture_tdd/core/constants/constants.dart';
+import 'package:weather_clean_architecture_tdd/core/error/exception.dart';
 import 'package:weather_clean_architecture_tdd/data/models/weather_model.dart';
 import 'package:http/http.dart' as http;
 
