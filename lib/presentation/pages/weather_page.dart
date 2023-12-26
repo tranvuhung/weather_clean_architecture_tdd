@@ -16,6 +16,7 @@ class WeatherPage extends StatelessWidget {
         title: const Text(
           'Weather App',
           style: TextStyle(color: Colors.orange),
+          textAlign: TextAlign.center,
         ),
       ),
       body: Padding(
